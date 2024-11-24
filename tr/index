@@ -1,0 +1,53 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Foyat Getachew</div>
+    <nav>
+      <ul>
+        <li><a href="aboutme.html">About me</a></li>
+        <li><a href="project.html">Project</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="hobbies.html">hobbies</a></li>
+        <li><a href="contactme.html">contact me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="profile">
+      <img src="profile_picture.jpg" alt="">
+      <p>As an aspiring software engineer with a passion for web development and a keen interest in computer architecture and organization,<br> I thrive on turning complex ideas into intuitive digital experiences. My journey into the tech world is fueled by a curiosity for how<br> things work beneath the surface, from the intricate architecture of computer systems to the seamless functionality of user-friendly<br> websites. I’m on a mission to master the art of coding, blending creativity with technical prowess to build innovative solutions that<br> make an impact. Join me as I explore the ever-evolving landscape of technology, one line of code at a time!
+      </p>
+    </section>
+    <section class="profile">
+     <h1>Hello there! I am Foyat.</h1>
+    </section>
+    <div class="slideshow-container">
+        <img class="slides" src="image1.jpg" alt="Image 1">
+        <img class="slides" src="image2.jpg" alt="Image 2">
+        <img class="slides" src="image3.jpg" alt="Image 3">
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div
+  </main>
+</body>
+<footer>
+    <div class="social-links">
+        <a href="https://t.me/yourusername" target="_blank">
+            <img src="telegram-icon.png" alt="Telegram" class="social-icon">
+        </a>
+        <a href="https://www.linkedin.com/in/yourusername" target="_blank">
+            <img src="linkedin-icon.png" alt="LinkedIn" class="social-icon">
+        </a>
+        <a href="https://www.instagram.com/yourusername" target="_blank">
+            <img src="instagram-icon.png" alt="Instagram" class="social-icon">
+        </a>
+</footer>
+</html>
